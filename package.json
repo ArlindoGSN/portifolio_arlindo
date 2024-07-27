@@ -1,0 +1,11 @@
+{
+    "name": "portifolio_arlindo",
+    "version": "1.0.0",
+    "main": "/assets/js/script.js",
+    "repository": "https://github.com/ArlindoGSN/portifolio_arlindo.git",
+    "author": "Arlindo Neto <netonery06@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "aos": "^2.3.4"
+    }
+}

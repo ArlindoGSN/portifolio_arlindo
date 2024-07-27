@@ -3,10 +3,11 @@
 }
 * {
     font-family: "Istok Web", sans-serif;
+    box-sizing: border-box;
 }
 .dark_mode {
     --color-font: white;
-    background-color: black;
+    background-color: #021526;
 }
 #dark_mode_button_svg {
     fill: var(--color-font);
@@ -28,6 +29,7 @@
     gap: 5rem;
     height: 100vh;
     color: var(--color-font);
+    background-color: #f6f6f6;
 }
 .container_principal {
     display: flex;
@@ -85,6 +87,8 @@
     gap: 0.375rem;
     flex-direction: row-reverse;
     justify-content: space-around;
+    width: 80%;
+    height: 100vh;
 }
 
 .conteudo__container__principal div {
@@ -156,6 +160,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 .conteudo__container__sobre h2 {
     font-size: 3rem;
@@ -176,7 +181,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: ;
 }
+
 .conteudo__container__skills h2 {
     font-size: 3rem;
     text-align: center;
@@ -190,16 +197,21 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
+    width: 80%;
 }
 .conteudo__container__skills ul li {
     display: flex;
     color: var(--color-font);
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
     box-shadow: 0px 5px 20px rgba(217, 217, 217, 0.25);
+    transition: 400ms linear;
+}
+.conteudo__container__skills ul li:hover {
+    transform: scale(1.2);
 }
 .conteudo__container__projetos {
     display: flex;
@@ -215,18 +227,6 @@
     margin-bottom: 3rem;
 }
 .conteudo__container__projetos p {
-    font-size: 2rem;
-    line-height: 3rem;
-    width: 80%;
-    text-align: center;
-}
-.conteudo__container__servicos h2 {
-    font-size: 3rem;
-    text-align: center;
-    line-height: 3rem;
-    margin-bottom: 3rem;
-}
-.conteudo__container__servicos p {
     font-size: 2rem;
     line-height: 3rem;
     width: 80%;

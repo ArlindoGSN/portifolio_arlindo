@@ -11,7 +11,8 @@
 
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Arlindo Neto</title>
 </head>
 
 <body class="container">
@@ -27,7 +28,7 @@
         </header>
         <div class="divisoria"></div>
         <section class="conteudo__container">
-            <aside class="menu__lateral" aria-label="Menu">
+            <aside data-aos="fade-right" class="menu__lateral" aria-label="Menu">
                 <button class="dark_mode_button">
                     <svg id="dark_mode_button_svg" width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +47,7 @@
                         href="https://wa.me/5575982990008?text=Oi,%20vi%20seu%20portfólio%20e%20queria%20tirar%20algumas%20dúvidas">Contate-me</a>
                 </div>
             </section>
-            <aside class="menu__redes" aria-label="Menu">
+            <aside data-aos="fade-left" class="menu__redes" aria-label="Menu">
                 <div class="redes__sociais">
                     <a target="_blank" href="https://github.com/ArlindoGSN">
                         <svg id="github" width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
@@ -55,7 +56,7 @@
                         </svg>
 
                     </a>
-                    <a target="_blank" href="[Enviar mensagem no WhatsApp](https://wa.me/5575982990008?text=Oi,%20vi%20seu%20portfólio%20e%20queria%20tirar%20algumas%20dúvidas)
+                    <a target="_blank" href="https://wa.me/5575982990008?text=Oi,%20vi%20seu%20portfólio%20e%20queria%20tirar%20algumas%20dúvidas
 ">
                         <svg id="whatsapp" width="43" height="43" viewBox="0 0 43 43"
                             xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +74,7 @@
             </aside>
         </section>
         <div class="divisoria"></div>
-        <section class="conteudo__container__sobre">
+        <section data-aos="fade-up" class="conteudo__container__sobre">
             <h2 id="sobre">Sobre mim</h2>
             <p>Meu nome é Arlindo Neto. Sou estudante de Sistemas de informação no IFBA no campus de Feira de Santana e
                 sou
@@ -82,7 +83,7 @@
         </section>
         <div class="divisoria"></div>
 
-        <section class="conteudo__container__skills">
+        <section data-aos="fade-up" class="conteudo__container__skills">
             <h2 id="skills">Skills</h2>
             <ul>
                 <li><img src="/assets/icons/devicon_java.svg" alt=""></li>
@@ -102,12 +103,12 @@
         </section>
         <div class="divisoria"></div>
 
-        <section class="conteudo__container__projetos">
+        <section data-aos="fade-up" class="conteudo__container__projetos">
             <h2 id="projetos">Projetos</h2>
             <p>Em breve</p>
         </section>
         <div class="divisoria"></div>
-        <section class="conteudo__container__servicos">
+        <section data-aos="fade-up" class="conteudo__container__projetos">
             <h2 id="servicos">Serviços</h2>
             <p>Em breve</p>
         </section>
@@ -119,5 +120,9 @@
     </footer>
 </body>
 <script src="/assets/js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
